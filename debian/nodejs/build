@@ -1,0 +1,2 @@
+tsc
+mjs2cjs -o dist/index.cjs dist/index.js
