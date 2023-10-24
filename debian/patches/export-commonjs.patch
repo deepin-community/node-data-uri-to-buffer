@@ -1,0 +1,19 @@
+Description: export commonjs file
+Author: Yadd <yadd@debian.org>
+Forwarded: not-needed
+Last-Update: 2023-06-23
+
+--- a/package.json
++++ b/package.json
+@@ -3,7 +3,10 @@
+   "version": "4.0.0",
+   "description": "Generate a Buffer instance from a Data URI string",
+   "type": "module",
+-  "main": "dist/index.js",
++  "exports": {
++    "import": "./dist/index.js",
++    "require": "./dist/index.cjs"
++  },
+   "types": "dist/index.d.ts",
+   "files": [
+     "dist",
