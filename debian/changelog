@@ -1,5 +1,30 @@
-template-repository (1.0-1) unstable; urgency=medium
+node-data-uri-to-buffer (4.0.0-4) unstable; urgency=medium
 
-  * Initial release
+  * Team upload
+  * Generate CommonJS bundle using mjs2cjs
+  * Update copyright year
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Israel Galadima <izzygaladima@gmail.com>  Fri, 23 Jun 2023 21:58:40 +0000
+
+node-data-uri-to-buffer (4.0.0-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-data-uri-to-buffer: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 21 Nov 2022 14:53:46 +0000
+
+node-data-uri-to-buffer (4.0.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Source-only upload
+  * Fix copyright years
+  * Test: use --ci for jest
+  * Mark test dependencies with <!nocheck>
+
+ -- Yadd <yadd@debian.org>  Sun, 31 Jul 2022 12:42:12 +0200
+
+node-data-uri-to-buffer (4.0.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1014116)
+
+ -- Michael Ikwuegbu <michaelikwuegbu1@gmail.com>  Fri, 01 Jul 2022 14:00:59 +0100
